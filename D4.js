@@ -81,10 +81,10 @@ console.log("L'operazione risulta:", resto3);
 */
 
 function epify(inputString) {
-  if (inputString.startsWith("Epicode")) {
+  if (inputString.startsWith("EPICODE")) {
     return inputString;
   } else {
-    return "Epicode" + inputString;
+    return "EPICODE" + inputString;
   }
 }
 let risultato = epify("Grande Epicode");
@@ -133,12 +133,7 @@ console.log(risultato3);
 
 const stringa2 = "tu non puoi passare";
 function upperFirst(l1) {
-  stringa2.split(" ");
-  for (i = 0, i < stringa2.length. i++) {
-let r1 = stringa2[i].charAt(0) 
- 
-  
-}
+  let r0 = stringa2.split(" ");
 }
 
 let risultato5 = upperFirst(stringa2);
@@ -152,7 +147,15 @@ console.log(risultato5);
  della stringa originale.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const stringa3 = "Ciao ciao mare";
+function cutString(l1) {
+  let s1 = stringa3.slice(1, 1);
+  //   let s2 = s1.slice(14, 1);
+  return s1;
+}
+
+let risultato6 = cutString(stringa3);
+console.log(risultato6);
 
 /* ESERCIZIO 10
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
